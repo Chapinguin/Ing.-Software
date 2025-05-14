@@ -1,0 +1,114 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Master.master.vb" Inherits="CalculadoraDeDesgaste.Master" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style2 {
+            height: 350px;
+            text-align: center;
+            font-size: xx-large;
+        }
+        .auto-style3 {
+            height: 350px;
+            width: 620px;
+        }
+        .auto-style4 {
+            width: 620px;
+        }
+        .auto-style5 {
+            width: 623px;
+            height: 397px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <table class="auto-style1">
+            <tr>
+                <td class="auto-style3">
+                    <img alt="" class="auto-style5" src="Resources/LogoTC.jpeg" /><br />
+                </td>
+                <td class="auto-style2">Bienvenido a la Calculadora de Desgaste de Neumáticos</td>
+            </tr>
+            <tr>
+                <td class="auto-style4">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                        <p>
+                            &nbsp;</p>
+                        <p>
+                            &nbsp;</p>
+                        <p>
+                            &nbsp;</p>
+                        <p>
+                            &nbsp;</p>
+                        <p>
+                            &nbsp;</p>
+                        <p>
+                            <br />
+                        </p>
+                        <p>
+                        </p>
+                        <p>
+                        </p>
+                        <p>
+                        </p>
+                        <p>
+                        </p>
+                        <p>
+                        </p>
+                        <p>
+                        </p>
+                        <p>
+                        </p>
+                        <p>
+                        </p>
+                        <p>
+                        </p>
+                    </asp:ContentPlaceHolder>
+                </td>
+                <td>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+                        <p>
+                            <br />
+                        </p>
+                        <p>
+                        </p>
+                        <p>
+                        </p>
+                        <p>
+                        </p>
+                        <p>
+                        </p>
+                        <p>
+                        </p>
+                        <p>
+                        </p>
+                        <p>
+                        </p>
+                        <p>
+                        </p>
+                        <p>
+                        </p>
+                        <p>
+                        </p>
+                        <p>
+                        </p>
+                        <p>
+                        </p>
+                        <p>
+                        </p>
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
